@@ -15,8 +15,19 @@ body {
   line-height: 1.6;
 }
 
+img {
+  width: 100%;
+}
+
 .showcase {
   background-color: $primary-color;
   color: #fff;
   height: 37.5rem;
+}
+
+.container {
+  max-width: 68.75rem;
+  padding: 0 1.875rem;
+  margin: 0 auto;
+  overflow: auto;
 }
