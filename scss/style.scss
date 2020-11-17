@@ -23,6 +23,12 @@ img {
   background-color: $primary-color;
   color: #fff;
   height: 37.5rem;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
 .container {
