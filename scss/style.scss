@@ -23,8 +23,7 @@ a {
 }
 
 .showcase {
-  background-color: $primary-color;
-  color: set-text-color($primary-color);
+  @include set-background($primary-color);
   height: 37.5rem;
 
   nav {
@@ -48,10 +47,6 @@ a {
     a:hover {
       color: $secondary-color;
     }
-  }
-
-  a {
-    color: #fff;
   }
 
   &-content {
