@@ -1,0 +1,13 @@
+@media (max-width: 43.75em) {
+  .showcase {
+    height: 25em;
+
+    &-content {
+      text-align: center;
+
+      img {
+        display: none;
+      }
+    }
+  }
+}
